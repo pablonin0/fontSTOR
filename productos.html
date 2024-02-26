@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Store</title>
+    <link href="/css/normalize.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img  class="header_logo" src="/img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__link navegacion__link--activo" href="index.html">Tienda</a>
+        <a class="navegacion__link" href="nostros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1> React js</h1>
+
+        <div class="camisa">        
+            <img class="camisa__imagen" src="/img/1.jpg" alt="producto imagen">
+        
+        
+            <div class="camisa__contenido">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor possimus nesciunt molestias cum repudiandae aut dolores, soluta voluptates consequuntur. Cumque suscipit aliquid placeat illo ducimus laborum aut eveniet, distinctio sequi.</p>
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>--Selecionar Talla--</option>
+                        <option >Chica</option>
+                        <option >Mediana</option>
+                        <option >Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" min="1" value="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div> <!--.camisa__contenido-->
+        </div><!--.camisa-->
+    </main>
+
+
+    <footer class="footer">
+        <p class="footer__texto">Frontend Store -Todos los derechos reservados 2024</p>
+    </footer>
+    
+</body>
+</html>
